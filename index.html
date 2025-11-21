@@ -1,0 +1,84 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokegit</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script> 
+</head>
+<body>
+
+<div class="quiz-container">
+
+    <!-- Título Principal y Subtítulos -->
+    <h1>20 Preguntas Básicas de Git</h1>
+    <h3>Pon a prueba tus conocimientos sobre Git con este cuestionario de opción múltiple. ¡Prepárate para dominar el control de versiones!</h3>
+    <h4>El Marcador de resultados acertados se muestra al final de la página.</h4>
+    <h4>¡Cada pregunta correcta suma 0.5 puntos!</h4>
+    <h2 class="section-header">Cuestionario: Fundamentos de Git</h2>
+
+    <!-- Pregunta 1: Fundamentos de Git -->
+    <div class="question-item" data-section="Fundamentos">
+        <div class="question-text">1. ¿Qué es un Sistema de Control de Versiones (VCS)?</div>
+        <div class="options">
+            <div class="option" data-answer="A">A. Un sistema para almacenar archivos en la nube.</div>
+            <div class="option" data-answer="B">B. Un sistema que registra y gestiona los cambios en archivos y proyectos a lo largo del tiempo.</div>
+            <div class="option" data-answer="C">C. Un software para crear copias de seguridad de forma automática.</div>
+        </div>
+        <br>
+    </div>
+
+    <!-- Pregunta 2: Fundamentos de Git -->
+    <div class="question-item" data-section="Fundamentos">
+        <div class="question-text">2. ¿Cuál fue un objetivo clave para el diseño de Git en 2005?</div>
+        <div class="options">
+            <div class="option" data-answer="A">A. Optimizar la transferencia de archivos grandes a través de la red.</div>
+            <div class="option" data-answer="C">B. Facilitar la colaboración entre desarrolladores en proyectos pequeños.</div>
+            <div class="option" data-answer="B">C. Soportar el desarrollo no lineal y gestionar millones de ramas paralelas eficientemente.</div>
+        </div>
+        <br>
+    </div>
+
+    <!-- Sección: Estados de los Archivos en Git -->
+    <h2 class="section-header">Estados de los Archivos en Git</h2>
+
+    <!-- Pregunta 3 -->
+    <div class="question-item" data-section="Estados">
+        <div class="question-text">1. ¿Cuál de los siguientes estados describe un archivo que ha sido cambiado, pero aún no está marcado para ser incluido en el próximo commit?</div>
+        <div class="options">
+            <div class="option" data-answer="A">A. Preparado (Staged)</div>
+            <div class="option" data-answer="B">B. Modificado (Modified)</div>
+            <div class="option" data-answer="C">C. Confirmado (Committed)</div>
+        </div>
+        <br>
+    </div>
+
+    <!-- Pregunta 4  -->
+    <div class="question-item" data-section="Estados">
+        <div class="question-text">2. Si un archivo está en el área de preparación (staging area) y luego se ejecuta el comando 'git commit', ¿a qué estado pasará el archivo en el repositorio local?</div>
+        <div class="options">
+            <div class="option" data-answer="A">A. De "Preparado" a "Modificado".</div>
+            <div class="option" data-answer="C">B. De "Modificado" a "Confirmado".</div>
+            <div class="option" data-answer="B">C. De "Preparado" a "Confirmado".</div>
+        </div>
+        <br>
+    </div>
+
+        <!-- Pregunta 5  -->
+        <div class="question-item" data-section="Confirmaciones">
+            <div class="question-text">3. ¿Qué opción del comando git commit permite añadir un mensaje directamente desde la línea de comandos?</div>
+            <div class="options">
+                <div class="option" data-answer="B">A. git commit -m "mensaje"</div>
+                <div class="option" data-answer="A">B. git commit --add "mensaje"</div>
+                <div class="option" data-answer="C">C. git commit --msg "mensaje"</div>
+            </div>
+            <br>
+        </div>
+
+</div>
+
+</body>
+</html>
