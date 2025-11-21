@@ -1,0 +1,65 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f9;
+  color: #333;
+}
+.quiz-container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+h1, h2, h3 {
+  color: #e44d26; /* Color rojizo, similar al logo de Git */
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+h3 {
+  color: #555;
+  font-size: 1.2em;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-bottom: none;
+}
+.section-header {
+  margin-top: 30px;
+  padding: 10px 0;
+  border-bottom: 1px dashed #ccc;
+  color: #333;
+  font-size: 1.5em;
+}
+.question-item {
+  margin-bottom: 25px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+.question-text {
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #007bb5; /* Azul para la pregunta */
+}
+.option {
+  margin: 8px 0;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+.option:hover {
+  background-color: #f0f8ff;
+}
+/* Estilos de JavaScript para retroalimentación (inicialmente ocultos) */
+.correct { background-color: #d4edda; border-color: #c3e6cb; color: #155724; }
+.incorrect { background-color: #f8d7da; border-color: #f5c6cb; color: #721c24; }
+.explanation { display: none; margin-top: 10px; padding: 10px; border-left: 3px solid #007bb5; background-color: #e9f5ff; }
