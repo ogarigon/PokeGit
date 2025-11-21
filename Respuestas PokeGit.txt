@@ -1,0 +1,21 @@
+﻿Respuestas cuestionario POKEGIT
+
+Pregunta 1: B. Un sistema que registra y gestiona los cambios en archivos y proyectos a lo largo del tiempo.
+Pregunta 2: C. Soportar el desarrollo no lineal y gestionar millones de ramas paralelas eficientemente.
+Pregunta 3: B. Modificado (Modified).
+Pregunta 4: C. De "Preparado" a "Confirmado".
+Pregunta 5: A. git commit -m "mensaje".
+Pregunta 6: A. git commit --amend.
+Pregunta 7: C. El Directorio de Git.
+Pregunta 8: C. En el Área de Preparación.
+Pregunta 9: C. git add.
+Pregunta 10: B. git init
+Pregunta 11: B. El estado actual de los archivos en el directorio de trabajo y el área de preparación.
+Pregunta 12: C. Guardar permanentemente los cambios preparados en el historial del repositorio local.
+Pregunta 13: B. Especificar el mensaje del commit directamente en la línea de comando.
+Pregunta 14: B. Copia un repositorio Git remoto a tu máquina local.
+Pregunta 15: B. Muestra cada commit junto con las diferencias (diff) introducidas por ese commit.
+Pregunta 16: 👉 C. Una instantánea completa del sistema de archivos en un momento dado, junto con metadatos.
+Pregunta 17: 👉 B. Una rama es un apuntador a una confirmación específica, y HEAD apunta a la rama local actual o a la última confirmación.
+Pregunta 18: 👉 B. Crea una nueva rama llamada "nueva-rama" y luego cambia a esa rama.
+Pregunta 19: 👉 B. Para indicar a Git qué archivos o patrones de archivos debe ignorar y no incluir en el control de versiones. Pregunta 20: 👉 B. Permite modificar el mensaje de la última confirmación o añadir/eliminar archivos de la misma.
